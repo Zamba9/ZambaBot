@@ -5,6 +5,7 @@
 
     <title> Lion Bot</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <style>
         #bottom {
             max-width: 810px;
@@ -13,15 +14,15 @@
             padding-top: 8em;
             padding-bottom: 8em;
         }
-        
+
         #em {
             font-style: oblique;
         }
-        
+
         h2 {
             font-size: 45px;
         }
-        
+
         #footer {
             position: fixed;
             left: 0px;
@@ -31,27 +32,27 @@
             background: black;
             color: white;
         }
-        
+
         #lionLink:link {
             color: #FF6F00;
             text-decoration: none;
         }
-        
+
         #lionLink:visited {
             color: #FF6F00;
             text-decoration: none;
         }
-        
+
         #lionLink:hover {
             color: #FF6F00;
             text-decoration: none;
         }
-        
+
         #lionLink:active {
             color: #FF6F00;
             text-decoration: none;
         }
-        
+
         #credits {
             max-width: 810px;
             margin: 0 auto;
@@ -62,6 +63,22 @@
 
 
 <body>
+    <!--Header section-->
+    <section id="header">
+      <div id="intro">
+        <h1>Lion-bot</h1>
+        <p>Do you and your team use Slack?
+          <br/>Now you can get some good jokes delivered to you right inside the app.
+        </p>
+        <p>The Lion-bot has compiled jokes from more than 1 website,
+          <br/>and it can send you a joke whenever you ask it to.</p>
+        <p>You can smile, or act like a grumpy cat, it’s all up to you.</p>
+        <a href="https://slack.com/oauth/authorize?scope=incoming-webhook,commands&client_id=143548562982.149622839286">
+          <img height="40" width="139" src="button_add_to_slack.png" alt="add to slack button">
+        </a>
+      </div>
+    </section>
+
     <!--I will work on the Bottom section and footer only. -->
     <section id="bottom">
         <h2> Usage
