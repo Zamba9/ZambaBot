@@ -1,0 +1,75 @@
+/* css styles for bot page */
+
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+}
+
+h1, h2, h3 {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+em {
+    font-style: oblique;
+}
+
+#footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 80px;
+    width: 100%;
+    background: black;
+    color: white;
+
+}
+
+#bottom {
+    max-width: 810px;
+    margin: 0 auto;
+    padding: 0 .5em;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+#credits {
+    max-width: 810px;
+    margin: 0 auto;
+    padding: 0 .5em;
+}
+
+#slack-screenshot {
+    width: 100%;
+    max-width: 550px;
+}
+
+.lionLink:link {
+    color: #FF6F00;
+    text-decoration: none;
+}
+.lionLink:visited {
+    color: #FF6F00;
+    text-decoration: none;
+}
+.lionLink:hover {
+    color: #FF6F00;
+    text-decoration: none;
+}
+.lionLink:active {
+    color: #FF6F00;
+    text-decoration: none;
+}
+
+.main-content {
+    max-width: 810px;
+    margin: 0 auto;
+    padding: 0 .5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
