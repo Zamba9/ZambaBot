@@ -1,4 +1,13 @@
 /* css styles for bot page */
+p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+p + p {
+    margin-top: .5em;
+}
 
 body, html {
     font-family: 'Open Sans', sans-serif;
@@ -9,25 +18,31 @@ body, html {
 h1, h2, h3 {
     font-family: 'PT Sans Caption', sans-serif;
     font-weight: 400;
+    padding-bottom: .2em;
 }
 
 h2 {
     font-size: 45px;
+    margin-bottom: 0;
 }
 
 em {
     font-style: oblique;
 }
 
-#footer {
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    height: 80px;
-    width: 100%;
-    background: black;
-    color: white;
+code {
+    font-weight: 400;
+    border-radius: 2px;
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    padding: .05em .02em .02em;
+}
 
+#intro {
+    padding-bottom: 2em;
 }
 
 #bottom {
@@ -39,9 +54,12 @@ em {
 }
 
 #credits {
-    max-width: 810px;
-    margin: 0 auto;
-    padding: 0 .5em;
+    padding-top:1em;
+    padding-bottom: 1em;
+    color: #fafafa;
+    font-size: .9em;
+    background-color: #212121;
+    transform: skewY(0deg)!important;
 }
 
 #slack-screenshot {
@@ -70,6 +88,11 @@ em {
     max-width: 810px;
     margin: 0 auto;
     padding: 0 .5em;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+
+}
+
+.inline-block {
+    display: inline-block;
+    clear: none;
+    vertical-align: middle;
 }
