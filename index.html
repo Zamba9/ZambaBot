@@ -9,41 +9,52 @@
     <body>
 
         <!-- Main header image section -->
-        <section class="main-content">
-            <div id="intro">
+        <div id="header">
+            <section class="main-content">
                 <h1>Lion-bot</h1>
                 <p>Do you and your team use Slack?
                   <br/>Now you can get some good jokes delivered to you right inside the app.
-                </p>
+                </p><br/>
                 <p>The Lion-bot has compiled jokes from more than 1 website,
-                  <br/>and it can send you a joke whenever you ask it to.</p>
-                <p>You can smile, or act like a grumpy cat, it’s all up to you.</p>
-                <a href="https://slack.com/oauth/authorize?scope=incoming-webhook,commands&client_id=143548562982.149622839286">
-                  <img height="40" width="139" src="button_add_to_slack.png" alt="add to slack button">
-                </a>
-            </div>
-        </section>
-        <!-- Slack image section-->
-        <section class="main-content">
-            <img id="slack-screenshot" src="imgs/slack_img_1.png" />
-        </section>
-        <!-- Bottom section -->
-        <section class="main-content">
-            <h2>Usage</h2>
-            <p>Use a button above to install into your Slack team.</p>
-            <p>
-                <code> /lion-bot</code> <em>shows a random item</em>
-                <br />
-                <code> /lion-bot [id]</code> <em>shows the item with the specified id (0 to ...)</em>
-                <br />
-                <code>/lion-bot filtered</code> <em>shows a SFW random item</em>
-                <br />
-                <code>/lion-bot filtered [id]</code> <em> shows the SFW item with the specified id (0 to ...)</em>
-                <br />
-                <code>/lion-bot help</code> <em> shows list of commands </em>
-            </p>
+                  <br/>and it can send you a joke whenever you ask it to.</p><br/>
+                <p>You can smile, or act like a grumpy cat, it’s all up to you.</p><br/>
+                <p>
+                    <a href="https://slack.com/oauth/authorize?scope=incoming-webhook,commands&client_id=143548562982.149622839286">
+                        <img height="40" width="139" src="imgs/button_add_to_slack.png" alt="add to slack button">
+                    </a>
+                </p>
 
-        </section>
+            </section>
+        </div>
+
+        <!-- Slack image section-->
+        <div id="sample-wrap">
+            <section class="main-content">
+                <p>
+                    <img id="slack-screenshot" src="imgs/slack_img_1.png" />
+                </p>
+            </section>
+        </div>
+
+        <!-- Bottom section -->
+        <div id="usage-wrap">
+            <section class="main-content">
+                <h2>Usage</h2>
+                <p>Use a button above to install into your Slack team.</p>
+                <p>
+                    <code> /lion-bot</code> <em>shows a random item</em>
+                    <br />
+                    <code> /lion-bot [id]</code> <em>shows the item with the specified id (0 to ...)</em>
+                    <br />
+                    <code>/lion-bot filtered</code> <em>shows a SFW random item</em>
+                    <br />
+                    <code>/lion-bot filtered [id]</code> <em> shows the SFW item with the specified id (0 to ...)</em>
+                    <br />
+                    <code>/lion-bot help</code> <em> shows list of commands </em>
+                </p>
+            </section>
+        </div>
+
 
         <!-- Footer section -->
         <div id="credits">
